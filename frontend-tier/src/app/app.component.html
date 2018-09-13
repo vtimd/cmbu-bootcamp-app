@@ -3,7 +3,7 @@
     <div class="branding">
         <a href="..." class="nav-link">
             <clr-icon shape="vm-bug"></clr-icon>
-            <span class="title">CMBU Bootcamp Demo App</span>
+            <span class="title">Grants Mobile Demo</span>
         </a>
     </div>
   </header>
@@ -11,7 +11,8 @@
       <div class="content-area">
         <div style="text-align:center">
           <h1>
-            Welcome to the 2018 Cloud Management Bootcamp!
+            Welcome to your Code Stream demo Macquarie!
+            <img class="logo" width="100" alt="vRA Logo" src="../assets/ca.svg">
           </h1>
         </div>
         <form #f="ngForm" class="clr-form clr-form-horizontal" (ngSubmit)="onSubmit(f.value)">
@@ -28,7 +29,7 @@
                 <label for="example" class="clr-control-label">Message</label>
                 <div class="clr-control-container">
                     <div class="clr-input-wrapper">
-                        <input type="textfield" [(ngModel)]="message.text" name="text" id="text" placeholder="Enter the message you want to post" class="clr-textarea" style="width: 500px;" required>
+                        <input type="textfield" [(ngModel)]="message.text" name="text" id="text" placeholder="Enter the message you want to post" class="clr-textarea" required>
                         <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
                     </div>
                 </div>
@@ -53,10 +54,5 @@
         </div>
           </div>
       </div>
-      <nav class="sidenav">
-          <section class="sidenav-content">
-              <img class="logo" width="100" alt="vRA Logo" src="../assets/ca.svg">
-          </section>
-      </nav>
   </div>
 </div>
